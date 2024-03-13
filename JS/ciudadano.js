@@ -30,9 +30,9 @@ async function safeCiudadano() {
 
     const newCiudadano = {
         "nombre_completo": documentName,
-        "direccion": documentADNCode,
+        "direccion": documentAddress,
         "celular": documentPhone,
-        "codigo_adn": documentAddress,
+        "codigo_adn": documentADNCode,
         "id": citizenList.length + 1
     }
 
